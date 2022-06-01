@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<head>
+    <link rel="shortcut icon" href="">
+ <title>SITES</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+ <script src="https://kit.fontawesome.com/6ba753ee14.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" media="(max-width: 800px)" href="altura-max800.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Oleo+Script+Swash+Caps&family=Roboto+Slab:wght@900&family=Waterfall&display=swap" rel="stylesheet">
+</head>
+
+<!--Divisão dos CSS's - CSS 1-->
+
+<style>
+
+body {
+    margin: 0;
+    padding: 0; 
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-tecnologia-cinza-de-padrao-geometrico-com-circulos_53876-119615.jpg?w=740&t=st=1653537391~exp=1653537991~hmac=e5cb83151302011a6ad68dfa639c6a89e258fdd3aff4d7788bcf0fae22d82893");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Cores do badybackground-color: rgba(255, 255, 255, 0.89); */
+    color: #0D0D0D; /* Cores do bady*/
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    
+}
+
+div .menu2 ul {
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+div .menu4 ul {
+    width: 50%;
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+div .menu3 ul {
+    width: 50%;
+    height: 1%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#menu-h {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14pt;
+}
+
+/*MENU DE CONTATO*/
+li a, .dropbtn {
+  display: inline-block;
+  color: #0D0D0D; /*cor dos subtitulos*/
+  text-align: center;
+  padding: 17px 10px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #027373; /*cor dos subtitulos*/
+  text-decoration: none;
+  color: #F2E7DC; /*cor das palavras do subtitulo*/
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #038C7F; /*cor das div's*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #0D0D0D; /*cor das sombras*/
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #0D0D0D; /*cor dos icones*/
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #A9D9D0; /*cor da seleção dos links*/
+} 
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+
+<!--CSS 2
+
+<style type="text/css">
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url("https://i.ytimg.com/vi/6tlBxoqVhIk/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Cores do badybackground-color: rgba(255, 255, 255, 0.89); */
+    color: #F2E7DC; /* Cores do body*/
+    text-align: center;
+    text-decoration: none;
+
+}
+
+h1 {
+    /*border-bottom: 5px solid gold;*/
+    text-transform: uppercase;
+} 
+
+ul {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+        
+}
+    
+div .menu2 ul {
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+    
+div .menu4 ul {
+    width: 50%;
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+    
+div .menu3 ul {
+    width: 50%;
+    height: 1%;
+    margin: 0%;
+    padding: 0%; 
+}
+    
+#menu-h {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14pt;
+}
+    
+    /*MENU DE CONTATO*/
+li a, .dropbtn {
+    display: inline-block;
+    color: #F2E7DC; /*cor dos subtitulos*/
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+}
+    
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #027373; /*cor dos subtitulos no hover*/
+    text-decoration: none;
+    color: #F2E7DC; /*cor das palavras do subtitulo*/
+}
+    
+li.dropdown {
+    display: inline-block;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A9D9D0; /*cor das div's*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #0D0D0D; /*cor das sombras*/
+    z-index: 1;
+}
+    
+.dropdown-content a {
+    color: #0D0D0D; /*cor dos icones*/
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #A9D9D0; /*cor da seleção dos links*/
+} 
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+</style>
+-->
+
+<body>
+    <div>
+    <div class="container">
+        <h1 class="fa-3x">
+            <i class="fas fa-star"></i> Sites Favoritos</h1>
+        <hr>
+    <nav id="menu-h">
+        <section>
+            <div>
+                
+                <div id="listas1">
+                    <ul class="menu1">
+                        
+                        <li class="dropdown">
+                            
+                            <a href="javascript:void(0)" class="dropbtn" title="Redes Sociais"><i class="fas fa-comment-dots"> Redes Sociais</i></a>
+                        
+                            <div class="dropdown-content">
+
+                    <span class="fa-2x">
+                        <a href="https://web.whatsapp.com/" title="Ir para o whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </span>
+
+                    <span class="fa-2x">
+                        
+                        <a href="https://www.instagram.com/gvphotos2021/" title="Ir para o instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </span>
+
+                    <span class="fa-2x">
+                        
+                        <a href="https://www.facebook.com/gleidson.farias1" title="Ir para o facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </span>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="listas2">
+                    <ul class="menu2">
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn" title="Ferramentas"><i class="fas fa-tools"> Ferramentas</i></a>
+                            <div class="dropdown-content">
+
+                                <div class="menu2">
+                                    <ul>
+
+                    <span class="fa-1x">
+                        
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/ifrs/FMfcgzGmvTpQrqbskBxSVjdRpVCvBXNq" title="Ir para o gmail" target="_blank"><i class="far fa-envelope"></i></a>
+                    </span>
+                    
+                    <span class="fa-1x">
+                        
+                        <a href="https://pt.slideshare.net/henriquecarmona/aula-4-teste-de-mesa" title="Ir para slideshare" target="_blank"><i class="fab fa-slideshare"></i></i></a>
+                    </span>
+                                    
+                    <span class="fa-1x">
+                                    
+                        <a href="https://www.youtube.com/" title="Ir para youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                                    
+                        <a href="https://www.ilovepdf.com/pt" title="Ir para ilovepdf" target="_blank"><i class="fas fa-heart"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                                    
+                        <a href="https://color.adobe.com/pt/explore" title="Ir para color.adobe.com" target="_blank"><i class="fas fa-palette"></i></a>
+                    </span>
+
+
+                                     </ul>
+                                     <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="https://fontawesome.com/v5/search?m=free&s=solid%2Cbrands" title="Ir para fontawesome" target="_blank"><i class="fab fa-font-awesome"></i></a>
+                    </span>    
+
+                    <span class="fa-1x">
+                        
+                        <a href="https://translate.google.com.br/?hl=pt-BR" title="Ir para tradutor" 
+                        target="_blank"><i class="fas fa-language"></i></a>
+                    </span>
+                    
+                    <span class="fa-1x">
+                        
+                        <a href="https://pixlr.com/br/x/" title="Ir para pixlr" 
+                        target="_blank"><i class="fas fa-image"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                        
+                        <a href="https://www.canva.com/" title="Ir para canva" 
+                        target="_blank"><i class="fas fa-paint-brush"></i></a>
+                    </span>
+
+                                    </ul>
+                                </div>
+                    
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="listas3">
+                    <ul class="menu3">
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn" title="Cursos em andamento"> <i class="fas fa-user-graduate"> Cursos</i></a>
+                            <div class="dropdown-content">
+
+                            <div class="menu3">
+                                
+                                <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="https://moodle.ifrs.edu.br/login/index.php" title="Ir para IFRS" target="_blank"><i class="fas fa-university"></i></a>
+                    </span>
+                                
+                    <span class="fa-1x">
+                        
+                        <a href="https://roadmap.sh/" title="Ir para roadmap.sh" target="_blank"><i class="fas fa-shoe-prints"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                        
+                        <a href="https://ava2.uniasselvi.com.br/subject/grades-and-tests/list/eyJzdWJqZWN0Ijp7ImNvZGUiOiJBRFMxMiIs
+                        ImRlc2NyaXB0aW9uIjoiTGluZ3VhZ2VucyBkZSBQcm9ncmFtYcOnw6NvIGUgRXN0cnV0dXJhcyBkZSBEYWRvcyIsInR5cGUiOiJOIiwic2V
+                        tZXN0ZXIiOiIyMDIyLzEiLCJjbGFzcyI6IkFEUzA0NDYiLCJkZXNjUGVyaW9kIjoiTm90dXJubyIsImJlZ2luRGF0ZSI6IjIwMjItMDQtMT
+                        hUMDM6MDA6MDAuMDAwWiIsImVuZERhdGUiOiIyMDIyLTA1LTA5VDAzOjAwOjAwLjAwMFoiLCJvcmRlclByb2dyZXNzIjoiMyIsImN1cnJl
+                        bnRTdWJqZWN0IjpmYWxzZSwic2l0dWF0aW9uIjoiU01FRCIsInN1YmplY3RDb3N0IjoiMzU1LjQyOCIsImhhdmVEaWdpdGFsQm9vayI6dHJ
+                        1ZSwiaGF2ZUludGVyYWN0aXZlTGVhcm5pbmdUcmFpbCI6dHJ1ZSwiZGlnaXRhbEJvb2tMaW5rIjoiaHR0cHM6Ly9saXZyb2RpZ2l0YWwudW5
+                        pYXNzZWx2aS5jb20uYnIvQURTMTJfbGluZ3VhZ2Vuc19kZV9wcm9ncmFtYWNhb19lX2VzdHJ1dHVyYV9kZV9kYWRvcy8iLCJpbnRlcmFjdGl
+                        2ZUxlYXJuaW5nVHJhaWxMaW5rIjoiaHR0cHM6Ly90cmlsaGFhcHJlbmRpemFnZW0udW5pYXNzZWx2aS5jb20uYnIvQURTMTJfbGluZ3VhZ2V
+                        uc19kZV9wcm9ncmFtYWNhb19lX2VzdHJ1dHVyYXNfZGVfZGFkb3MvIiwibGFib3JhdG9yaWVzIjpbXSwidXJsQm9vayI6eyJjaGFuZ2luZ1Ro
+                        aXNCcmVha3NBcHBsaWNhdGlvblNlY3VyaXR5IjoiaHR0cHM6Ly93d3cudW5pYXNzZWx2aS5jb20uYnIvZXh0cmFuZXQvbGF5b3V0L3JlcXVlc
+                        3QvdHJpbGhhL21hdGVyaWFpcy9saXZyby9saXZyby5waHA%2FY29kaWdvPTI0NTU2In0sImNsYXNzV2hhdHNhcHBMaW5rIjoiaHR0cHM6Ly9j
+                        aGF0LndoYXRzYXBwLmNvbS9LVkRES0YySTFpbzVZN3B5TnI0NHdtIiwicmVwbGFjZW1lbnQiOnRydWUsIm9ubHlEaWdpdGFsQm9vayI6ZmFsc2Us
+                        Im9ubGluZU1hdGVyaWFsIjpmYWxzZSwiaGF2ZUJvb2siOnRydWUsInBhaWQiOmZhbHNlLCJvZmZlclR5cGUiOiIyIiwib2ZmZXJUeXBlRGVzY
+                        3JpcHRpb24iOiJGbGV4Iiwib2ZmZXJTaG93SW5mb3JtYXRpdmVzIjpmYWxzZSwibWVldFR5cGUiOiJWaXJ0dWFsIiwiYm9va0NvZGVJZGVudGlm
+                        aWNhdGlvbiI6IjI0NTU2IiwibW9kdWxlIjoiNCJ9fQ%3D%3D" title="Ir para Uniasselvi" target="_blank">
+                        <i class="fas fa-graduation-cap"></i></a>
+                    </span>
+                    
+                                </ul>
+
+                                <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="https://www.freecodecamp.org/portuguese/learn" title="Ir para o freecodecamp" target="_blank"><i class="fab fa-free-code-camp"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                        
+                        <a href="https://on.fiap.com.br/index.php?error=1" title="Ir para fiap" target="_blank"><i class="fas fa-user-graduate"></i></a>
+                    </span>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="listas4">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn" title="Planejar"><i class="fas fa-edit"> Planejamento</i></a>
+                            <div class="dropdown-content">
+
+                            <div class="menu4">
+                                
+                                <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="https://trello.com/b/YEN9aVXp/maio" title="Ir para trello" target="_blank"><i class="fab fa-trello"></i></a>
+                    </span>
+                                
+                    <span class="fa-1x">
+                        
+                        <a href="#" title="Ir para roadmap.sh" target="_blank"><i class="fas fa-shoe-prints"></i></a>
+                    </span>
+                                </ul>
+
+                                <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="#" title="Ir para o freecodecamp" target="_blank"><i class="fab fa-free-code-camp"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                        
+                        <a href="#" title="Ir para fiap" target="_blank"><i class="fas fa-user-graduate"></i></a>
+                    </span>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="listas5">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn" title="Planejar"><i class="fas fa-project-diagram"> Projetos</i></a>
+                            <div class="dropdown-content">
+
+                            <div class="menu4">
+                                
+                                <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="https://trello.com/b/YEN9aVXp/maio" title="Ir para trello" target="_blank"><i class="fab fa-trello"></i></a>
+                    </span>
+                                
+                    <span class="fa-1x">
+                        
+                        <a href="#" title="Ir para roadmap.sh" target="_blank"><i class="fas fa-shoe-prints"></i></a>
+                    </span>
+                                </ul>
+
+                                <ul>
+                    <span class="fa-1x">
+                        
+                        <a href="#" title="Ir para o freecodecamp" target="_blank"><i class="fab fa-free-code-camp"></i></a>
+                    </span>
+
+                    <span class="fa-1x">
+                        
+                        <a href="#" title="Ir para fiap" target="_blank"><i class="fas fa-user-graduate"></i></a>
+                    </span>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+    </nav>
+    </div>
+</div>
+</body>
+</html>
