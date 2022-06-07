@@ -1,0 +1,102 @@
+<!--
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url("https://i.ytimg.com/vi/6tlBxoqVhIk/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Cores do badybackground-color: rgba(255, 255, 255, 0.89); */
+    color: #F2E7DC; /* Cores do body*/
+    text-align: center;
+    text-decoration: none;
+
+}
+
+h1 {
+    /*border-bottom: 5px solid gold;*/
+    text-transform: uppercase;
+} 
+
+ul {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+        
+}
+    
+div .menu2 ul {
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+    
+div .menu4 ul {
+    width: 50%;
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+    
+div .menu3 ul {
+    width: 50%;
+    height: 1%;
+    margin: 0%;
+    padding: 0%; 
+}
+    
+#menu-h {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14pt;
+}
+    
+    /*MENU DE CONTATO*/
+li a, .dropbtn {
+    display: inline-block;
+    color: #F2E7DC; /*cor dos subtitulos*/
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+}
+    
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #027373; /*cor dos subtitulos no hover*/
+    text-decoration: none;
+    color: #F2E7DC; /*cor das palavras do subtitulo*/
+}
+    
+li.dropdown {
+    display: inline-block;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A9D9D0; /*cor das div's*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #0D0D0D; /*cor das sombras*/
+    z-index: 1;
+}
+    
+.dropdown-content a {
+    color: #0D0D0D; /*cor dos icones*/
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #A9D9D0; /*cor da seleção dos links*/
+} 
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+-->
